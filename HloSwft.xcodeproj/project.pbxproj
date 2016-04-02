@@ -12,6 +12,7 @@
 		7429C0D51CAFAC2300624271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7429C0D31CAFAC2300624271 /* Main.storyboard */; };
 		7429C0D71CAFAC2300624271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7429C0D61CAFAC2300624271 /* Assets.xcassets */; };
 		7429C0DA1CAFAC2300624271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7429C0D81CAFAC2300624271 /* LaunchScreen.storyboard */; };
+		74635CB01CB000A300A8C997 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74635CAF1CB000A300A8C997 /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7429C0D61CAFAC2300624271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7429C0D91CAFAC2300624271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7429C0DB1CAFAC2300624271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74635CAF1CB000A300A8C997 /* ConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7429C0CF1CAFAC2300624271 /* AppDelegate.swift */,
 				7429C0D11CAFAC2300624271 /* ViewController.swift */,
 				7429C0D31CAFAC2300624271 /* Main.storyboard */,
+				74635CAF1CB000A300A8C997 /* ConverterViewController.swift */,
 				7429C0D61CAFAC2300624271 /* Assets.xcassets */,
 				7429C0D81CAFAC2300624271 /* LaunchScreen.storyboard */,
 				7429C0DB1CAFAC2300624271 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				7429C0D21CAFAC2300624271 /* ViewController.swift in Sources */,
 				7429C0D01CAFAC2300624271 /* AppDelegate.swift in Sources */,
+				74635CB01CB000A300A8C997 /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				7429C0E01CAFAC2300624271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
